@@ -1,7 +1,7 @@
 //array of numbers
 
 const numbers =[3, 10, 5, 22, 19, 28];
-const strings =["Bernice", "Bernard", "Ophelia", "Cherry","Thelma", "Juliana"];
+const names =["Bernice", "Bernard", "Ophelia", "Cherry","Thelma", "Juliana"];
 
 //Task 1: processArray function
 function processArray(numbers){
@@ -9,8 +9,8 @@ function processArray(numbers){
 }
 
 //Task 2 : formatArrayStrings
-function formatArrayStrings(strings,numbers){
-    return strings.map((str, index)=>{
+function formatArrayStrings(names,numbers){
+    return names.map((str, index)=>{
         if (numbers[index] % 2 === 0){
             return str.toUpperCase();
         }else{
@@ -20,5 +20,5 @@ function formatArrayStrings(strings,numbers){
     }
 
 
-console.log(formatArrayStrings(strings,numbers));
+console.log(formatArrayStrings(names,numbers));
 console.log(processArray(numbers));
