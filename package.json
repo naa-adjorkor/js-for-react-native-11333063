@@ -1,0 +1,12 @@
+{
+  "name": "js-for-react-native-11333063",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Running tests...\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
