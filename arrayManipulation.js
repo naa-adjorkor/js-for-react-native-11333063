@@ -22,3 +22,4 @@ function formatArrayStrings(names,numbers){
 
 console.log(formatArrayStrings(names,numbers));
 console.log(processArray(numbers));
+
